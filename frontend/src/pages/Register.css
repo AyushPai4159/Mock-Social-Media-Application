@@ -1,0 +1,105 @@
+.register-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-dark);
+    font-family: 'Rajdhani', sans-serif;
+    padding: 20px;
+  }
+  
+  .register-box {
+    background: var(--card-dark);
+    padding: 40px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 229, 229, 0.1);
+    border: 1px solid rgba(0, 229, 229, 0.1);
+  }
+  
+  .register-box h1 {
+    color: var(--yikyak-cyan);
+    margin: 0 0 30px 0;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    color: var(--yikyak-cyan);
+    margin-bottom: 8px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 12px;
+    background: var(--background-dark);
+    border: 1px solid var(--accent-dark);
+    border-radius: 8px;
+    color: var(--text-light);
+    font-size: 16px;
+    font-family: inherit;
+  }
+  
+  .input-group input:focus {
+    outline: none;
+    border-color: var(--yikyak-cyan);
+    box-shadow: 0 0 10px rgba(0, 229, 229, 0.2);
+  }
+  
+  .register-button {
+    width: 100%;
+    padding: 12px;
+    background: var(--yikyak-cyan);
+    color: var(--background-dark);
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: inherit;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+  }
+  
+  .register-button:hover {
+    background: var(--yikyak-cyan-bright);
+    box-shadow: 0 0 15px rgba(0, 229, 229, 0.3);
+  }
+  
+  .back-to-login-button {
+    width: 100%;
+    padding: 12px;
+    background: transparent;
+    color: var(--yikyak-cyan);
+    border: 1px solid var(--yikyak-cyan);
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: inherit;
+    letter-spacing: 1px;
+  }
+  
+  .back-to-login-button:hover {
+    background: var(--yikyak-cyan);
+    color: var(--background-dark);
+    box-shadow: 0 0 15px rgba(0, 229, 229, 0.3);
+  }
+  
+  .error-message {
+    color: var(--error-red);
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
