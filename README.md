@@ -1,6 +1,17 @@
 # Mock Social Media Application
 
-A comprehensive social media application built for our Databases Classes to demonstrate and showcase various SQL queries, database operations, and full-stack development practices.
+A comprehensive social media application built for ou### 4. Environment Configuration
+Create a `.env` file in the `backend` directory with the following variables:
+
+```env
+DB_HOST=localhost
+DB_USER=user
+DB_PASSWORD=password
+DB_NAME=proj421
+SESSION_SECRET=dev-secret-key-421
+```
+
+**Important**: These credentials match the database user created in the previous step (`user`/`password`).Classes to demonstrate and showcase various SQL queries, database operations, and full-stack development practices.
 
 ## 🎯 Project Overview
 
@@ -46,6 +57,24 @@ brew install mariadb
 brew services start mariadb
 ```
 
+#### Create Database User
+After installing MySQL/MariaDB, you must create a dedicated user for the application:
+
+1. **Log into MySQL as root:**
+   ```bash
+   mysql -u root -p
+   ```
+
+2. **Create the application user:**
+   ```sql
+   CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
+   GRANT ALL PRIVILEGES ON *.* TO 'user'@'localhost';
+   FLUSH PRIVILEGES;
+   EXIT;
+   ```
+
+   **Important**: The username must be `user` and password must be `password` to match the default `.env` configuration.
+
 ## 🚀 Installation & Setup
 
 ### 1. Clone the Repository
@@ -71,7 +100,7 @@ Create a `.env` file in the `backend` directory with the following variables:
 
 ```env
 DB_HOST=localhost
-DB_USER=root
+DB_USER=user
 DB_PASSWORD=your_mysql_password
 DB_NAME=proj421
 SESSION_SECRET=dev-secret-key-421
