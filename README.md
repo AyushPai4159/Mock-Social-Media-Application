@@ -1,4 +1,4 @@
-# Mock Social Media Application
+# Mock Social Media Application - by Ayush Pai, Aditya Veerathu, and Jondash Karamavruc
 
 A comprehensive social media application built for ou### 4. Environment Configuration
 Create a `.env` file in the `backend` directory with the following variables:
@@ -16,6 +16,8 @@ SESSION_SECRET=dev-secret-key-421
 ## 🎯 Project Overview
 
 This project is a mock social media platform that includes user authentication, post creation, likes, shares, and user interactions. It serves as a practical demonstration of database design, SQL query optimization, and modern web development technologies.
+
+Here is a demonstration of our project: https://www.youtube.com/watch?v=I8S_c5kXr0A
 
 ## 🛠️ Technology Stack
 
