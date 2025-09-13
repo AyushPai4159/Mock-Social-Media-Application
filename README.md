@@ -175,17 +175,7 @@ This application demonstrates various database concepts:
 - `npm run build` - Build for production
 - `npm test` - Run tests
 
-## 🐳 Docker Support
 
-For containerized deployment, use the provided Dockerfile:
-
-```bash
-# Build the Docker image
-docker build -t social-media-app .
-
-# Run the container
-docker run -p 3000:3000 -p 3306:3306 social-media-app
-```
 
 ## 🚨 Troubleshooting
 
@@ -220,9 +210,7 @@ This project demonstrates:
 - Jondash Karamavruc
 - Aditya Veerathu
 
-## 📄 License
 
-This project is for educational purposes as part of our Databases Classes.
 
 ---
 
