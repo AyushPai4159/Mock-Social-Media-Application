@@ -1,17 +1,8 @@
 # Mock Social Media Application - by Ayush Pai, Aditya Veerathu, and Jondash Karamavruc
 
-A comprehensive social media application built for ou### 4. Environment Configuration
-Create a `.env` file in the `backend` directory with the following variables:
+A comprehensive social media application built for our Databases class!
 
-```env
-DB_HOST=localhost
-DB_USER=user
-DB_PASSWORD=password
-DB_NAME=proj421
-SESSION_SECRET=dev-secret-key-421
-```
 
-**Important**: These credentials match the database user created in the previous step (`user`/`password`).Classes to demonstrate and showcase various SQL queries, database operations, and full-stack development practices.
 
 ## 🎯 Project Overview
 
@@ -103,12 +94,10 @@ Create a `.env` file in the `backend` directory with the following variables:
 ```env
 DB_HOST=localhost
 DB_USER=user
-DB_PASSWORD=your_mysql_password
+DB_PASSWORD=password
 DB_NAME=proj421
 SESSION_SECRET=dev-secret-key-421
 ```
-
-**Important**: Replace `your_mysql_password` with your actual MySQL root password.
 
 ### 5. Database Setup
 Run the database setup script to create tables and populate with mock data:
